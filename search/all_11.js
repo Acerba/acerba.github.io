@@ -3,7 +3,7 @@ var searchData=
   ['read',['Read',['../classace_1_1_file.html#a7596148e1287db1e427dc14d5c3938ea',1,'ace::File']]],
   ['readall',['ReadAll',['../classace_1_1_file.html#a4fbcbb43e04f3b1d4e2ae8398d2c1a77',1,'ace::File']]],
   ['readalltext',['ReadAllText',['../classace_1_1_file.html#a5722dd4b4fb9e4bfd01c726d41a6e98f',1,'ace::File']]],
-  ['rect',['Rect',['../classace_1_1_rect.html',1,'ace::Rect'],['../structace_1_1_sprite_sheet_1_1_sprite_data.html#a0d69dcc00b999e357314c393fcc73b0a',1,'ace::SpriteSheet::SpriteData::rect()'],['../classace_1_1_rect.html#a350ec38ec5703fbbe8c85cff40495750',1,'ace::Rect::Rect()'],['../classace_1_1_rect.html#a05e6381db2725e0acc8fe62874ad716c',1,'ace::Rect::Rect(float x, float y, float width, float height)']]],
+  ['rect',['Rect',['../classace_1_1_rect.html',1,'ace::Rect'],['../classace_1_1_rect.html#a350ec38ec5703fbbe8c85cff40495750',1,'ace::Rect::Rect()'],['../classace_1_1_rect.html#a05e6381db2725e0acc8fe62874ad716c',1,'ace::Rect::Rect(float x, float y, float width, float height)'],['../structace_1_1_sprite_sheet_1_1_sprite_data.html#a0d69dcc00b999e357314c393fcc73b0a',1,'ace::SpriteSheet::SpriteData::rect()']]],
   ['remove',['Remove',['../classace_1_1_event_manager.html#ae6450c702a4b50c13bc1458d2c4ff719',1,'ace::EventManager']]],
   ['removechild',['RemoveChild',['../classace_1_1_entity.html#a8996e83ae8ee18efdf060e5b1a78877c',1,'ace::Entity::RemoveChild()'],['../structace_1_1_entity_manager_1_1_entity_handle.html#a8d76d65190cbd76c9bef749249e42cd3',1,'ace::EntityManager::EntityHandle::RemoveChild()']]],
   ['removecomponent',['RemoveComponent',['../classace_1_1_entity.html#aad291c5731f89fa3ceced79882216777',1,'ace::Entity']]],

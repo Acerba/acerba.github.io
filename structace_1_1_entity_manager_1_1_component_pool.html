@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Acerba
-   &#160;<span id="projectnumber">0.0.1</span>
+   &#160;<span id="projectnumber">0.0.2</span>
    </div>
   </td>
  </tr>
@@ -65,10 +65,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a> &#124;
 <a href="#friends">Friends</a>  </div>
   <div class="headertitle">
 <div class="title">ace::EntityManager::ComponentPool&lt; CompType &gt; Struct Template Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -84,14 +82,11 @@ Inheritance diagram for ace::EntityManager::ComponentPool&lt; CompType &gt;:</di
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a1e15a9a16a81584794263e2c7329aa12"><td class="memItemLeft" align="right" valign="top"><a id="a1e15a9a16a81584794263e2c7329aa12"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateCallback</b>) (CompType &amp;)</td></tr>
-<tr class="separator:a1e15a9a16a81584794263e2c7329aa12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab17430039f044a468ea9f9926d3a5739"><td class="memItemLeft" align="right" valign="top"><a id="ab17430039f044a468ea9f9926d3a5739"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUpdateCallback</b> (EntityManager::UpdateCallback&lt; CompType &gt; callback)</td></tr>
+<tr class="separator:ab17430039f044a468ea9f9926d3a5739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1e353160f7cd483f45572263dc89eb1"><td class="memItemLeft" align="right" valign="top"><a id="aa1e353160f7cd483f45572263dc89eb1"></a>
 virtual const void *&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b> () const</td></tr>
 <tr class="separator:aa1e353160f7cd483f45572263dc89eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,16 +121,6 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Push</b> (<a c
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>Pop</b> (<a class="el" href="structace_1_1_entity_manager_1_1_component_base_handle.html">EntityManager::ComponentBaseHandle</a> *handle)</td></tr>
 <tr class="separator:a4d14907842183c8521ce380aef6145be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:a3abcc7c8271e78b41a88b36cc1bb5ce0"><td class="memItemLeft" align="right" valign="top"><a id="a3abcc7c8271e78b41a88b36cc1bb5ce0"></a>
-UpdateCallback&#160;</td><td class="memItemRight" valign="bottom"><b>update</b></td></tr>
-<tr class="separator:a3abcc7c8271e78b41a88b36cc1bb5ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_structace_1_1_entity_manager_1_1_base_pool"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structace_1_1_entity_manager_1_1_base_pool')"><img src="closed.png" alt="-"/>&#160;Data Fields inherited from <a class="el" href="structace_1_1_entity_manager_1_1_base_pool.html">ace::EntityManager::BasePool</a></td></tr>
-<tr class="memitem:ade7208d605b5c8e134e605ceabff8bf4 inherit pub_attribs_structace_1_1_entity_manager_1_1_base_pool"><td class="memItemLeft" align="right" valign="top"><a id="ade7208d605b5c8e134e605ceabff8bf4"></a>
-<a class="el" href="classace_1_1_entity_manager_1_1_component_i_d.html">ComponentID</a>&#160;</td><td class="memItemRight" valign="bottom"><b>componentID</b></td></tr>
-<tr class="separator:ade7208d605b5c8e134e605ceabff8bf4 inherit pub_attribs_structace_1_1_entity_manager_1_1_base_pool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a6f579cda6059d102e9074e11a27e0282"><td class="memItemLeft" align="right" valign="top"><a id="a6f579cda6059d102e9074e11a27e0282"></a>
@@ -150,6 +135,10 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>SpriteManager</b></t
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_structace_1_1_entity_manager_1_1_base_pool"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structace_1_1_entity_manager_1_1_base_pool')"><img src="closed.png" alt="-"/>&#160;Data Fields inherited from <a class="el" href="structace_1_1_entity_manager_1_1_base_pool.html">ace::EntityManager::BasePool</a></td></tr>
+<tr class="memitem:ade7208d605b5c8e134e605ceabff8bf4 inherit pub_attribs_structace_1_1_entity_manager_1_1_base_pool"><td class="memItemLeft" align="right" valign="top"><a id="ade7208d605b5c8e134e605ceabff8bf4"></a>
+<a class="el" href="classace_1_1_entity_manager_1_1_component_i_d.html">ComponentID</a>&#160;</td><td class="memItemRight" valign="bottom"><b>componentID</b></td></tr>
+<tr class="separator:ade7208d605b5c8e134e605ceabff8bf4 inherit pub_attribs_structace_1_1_entity_manager_1_1_base_pool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_structace_1_1_entity_manager_1_1_base_pool"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_structace_1_1_entity_manager_1_1_base_pool')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="structace_1_1_entity_manager_1_1_base_pool.html">ace::EntityManager::BasePool</a></td></tr>
 <tr class="memitem:a93b34bdc814f1e68c019778be8cabbff inherit pro_methods_structace_1_1_entity_manager_1_1_base_pool"><td class="memItemLeft" align="right" valign="top"><a id="a93b34bdc814f1e68c019778be8cabbff"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>BasePool</b> (const <a class="el" href="classace_1_1_entity_manager_1_1_component_i_d.html">ComponentID</a> id)</td></tr>
