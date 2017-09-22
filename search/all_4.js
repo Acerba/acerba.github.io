@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['enable',['Enable',['../classace_1_1_graphics_device.html#ad71906fa37eb16b34ddd945951d8ec15',1,'ace::GraphicsDevice']]],
-  ['endgroup',['EndGroup',['../classace_1_1_user_interface.html#a0b1a48ea87bc9950d91d20b2f31efcf7',1,'ace::UserInterface']]],
-  ['endui',['EndUI',['../classace_1_1_user_interface.html#a448cc87a6eade308af7275a7ff3cb580',1,'ace::UserInterface']]],
+  ['enable',['Enable',['../classace_1_1_graphics_device.html#a4603ba1958a6159668cb899e0e969879',1,'ace::GraphicsDevice']]],
+  ['endgroup',['EndGroup',['../classace_1_1_user_interface.html#a5d173b005261250a1ae346a4a9142fab',1,'ace::UserInterface']]],
+  ['endui',['EndUI',['../classace_1_1_user_interface.html#ac6687104d9a26a2f137394598de8f8a3',1,'ace::UserInterface']]],
   ['entity',['Entity',['../classace_1_1_entity.html',1,'ace::Entity'],['../classace_1_1_entity.html#ae2759a348d2353cbdc58fe70fd7c1774',1,'ace::Entity::Entity(EntityManager &amp;manager=EntityManager::DefaultManager())'],['../classace_1_1_entity.html#a40bb1c6ca58a149f200b0962689c8a4a',1,'ace::Entity::Entity(EntityManager::EntityHandle *handle)']]],
   ['entitycount',['EntityCount',['../classace_1_1_entity_manager.html#a2f104320c89ed8ac8654d58e613046dd',1,'ace::EntityManager']]],
   ['entityhandle',['EntityHandle',['../structace_1_1_entity_manager_1_1_entity_handle.html',1,'ace::EntityManager']]],
@@ -13,5 +13,5 @@ var searchData=
   ['eventbase_3c_20animationevent_20_3e',['EventBase&lt; AnimationEvent &gt;',['../classace_1_1_event_base.html',1,'ace']]],
   ['eventbase_3c_20event_3a_3asdleventarg_20_3e',['EventBase&lt; Event::SDLEventArg &gt;',['../classace_1_1_event_base.html',1,'ace']]],
   ['eventmanager',['EventManager',['../classace_1_1_event_manager.html',1,'ace']]],
-  ['exists',['Exists',['../classace_1_1_file.html#af75b659738a59c5ffb4c1dce68f9b4bc',1,'ace::File']]]
+  ['exists',['Exists',['../classace_1_1_file.html#ad6ef601e5a0b9287e5b787a0605136d2',1,'ace::File']]]
 ];

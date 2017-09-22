@@ -93,14 +93,15 @@ Data Structures</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a0b9353cb23f7d75a8427e8faf801e8a7"><td class="memTemplParams" colspan="2"><a id="a0b9353cb23f7d75a8427e8faf801e8a7"></a>
 template&lt;typename CompType &gt; </td></tr>
-<tr class="memitem:a0b9353cb23f7d75a8427e8faf801e8a7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>UpdateCallback</b> = void(*)(CompType &amp;)</td></tr>
+<tr class="memitem:a0b9353cb23f7d75a8427e8faf801e8a7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#a0b9353cb23f7d75a8427e8faf801e8a7">UpdateCallback</a> = void(*)(CompType &amp;)</td></tr>
+<tr class="memdesc:a0b9353cb23f7d75a8427e8faf801e8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update function signature. <br /></td></tr>
 <tr class="separator:a0b9353cb23f7d75a8427e8faf801e8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a07f00dc59cf917e70b9d339ab8c35cdb"><td class="memTemplParams" colspan="2"><a id="a07f00dc59cf917e70b9d339ab8c35cdb"></a>
-template&lt;typename CompType &gt; </td></tr>
-<tr class="memitem:a07f00dc59cf917e70b9d339ab8c35cdb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><b>SetUpdateCallback</b> (UpdateCallback&lt; CompType &gt; callback)</td></tr>
+<tr class="memitem:a07f00dc59cf917e70b9d339ab8c35cdb"><td class="memTemplParams" colspan="2">template&lt;typename CompType &gt; </td></tr>
+<tr class="memitem:a07f00dc59cf917e70b9d339ab8c35cdb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#a07f00dc59cf917e70b9d339ab8c35cdb">SetUpdateCallback</a> (<a class="el" href="classace_1_1_entity_manager.html#a0b9353cb23f7d75a8427e8faf801e8a7">UpdateCallback</a>&lt; CompType &gt; callback)</td></tr>
+<tr class="memdesc:a07f00dc59cf917e70b9d339ab8c35cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set custom update function for all components of CompType.  <a href="#a07f00dc59cf917e70b9d339ab8c35cdb">More...</a><br /></td></tr>
 <tr class="separator:a07f00dc59cf917e70b9d339ab8c35cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f104320c89ed8ac8654d58e613046dd"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#a2f104320c89ed8ac8654d58e613046dd">EntityCount</a> (const <a class="el" href="classace_1_1_entity_manager.html">EntityManager</a> &amp;manager=DefaultManager())</td></tr>
 <tr class="memdesc:a2f104320c89ed8ac8654d58e613046dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves amount of entities managed by the 'manager'.  <a href="#a2f104320c89ed8ac8654d58e613046dd">More...</a><br /></td></tr>
@@ -109,21 +110,22 @@ template&lt;typename CompType &gt; </td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#a0cafa79a8c1ce4b916f1ad3a8c9adf93">EntityManager</a> ()</td></tr>
 <tr class="memdesc:a0cafa79a8c1ce4b916f1ad3a8c9adf93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for users managers. <br /></td></tr>
 <tr class="separator:a0cafa79a8c1ce4b916f1ad3a8c9adf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b10ed3a3b65e0041a534dcde5316334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#a6b10ed3a3b65e0041a534dcde5316334">CreateEntity</a> ()</td></tr>
-<tr class="memdesc:a6b10ed3a3b65e0041a534dcde5316334"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and ties an entity to this manager.  <a href="#a6b10ed3a3b65e0041a534dcde5316334">More...</a><br /></td></tr>
-<tr class="separator:a6b10ed3a3b65e0041a534dcde5316334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70d76ae1c8a8726fe5fd6976d86d95ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#a70d76ae1c8a8726fe5fd6976d86d95ae">CreateEntity</a> ()</td></tr>
+<tr class="memdesc:a70d76ae1c8a8726fe5fd6976d86d95ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and ties an entity to this manager.  <a href="#a70d76ae1c8a8726fe5fd6976d86d95ae">More...</a><br /></td></tr>
+<tr class="separator:a70d76ae1c8a8726fe5fd6976d86d95ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a11051e07cb6166c96719536166d6e9e9"><td class="memItemLeft" align="right" valign="top"><a id="a11051e07cb6166c96719536166d6e9e9"></a>
+<tr class="memitem:a7a0378478cc9e1f074a27138e23348be"><td class="memItemLeft" align="right" valign="top"><a id="a7a0378478cc9e1f074a27138e23348be"></a>
 static <a class="el" href="classace_1_1_entity_manager.html">EntityManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultManager</b> ()</td></tr>
-<tr class="separator:a11051e07cb6166c96719536166d6e9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b8e5225e382e7ead2d800adbe423671"><td class="memItemLeft" align="right" valign="top"><a id="a4b8e5225e382e7ead2d800adbe423671"></a>
+<tr class="separator:a7a0378478cc9e1f074a27138e23348be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0021c1e0b09ff2487c306ad6a835db"><td class="memItemLeft" align="right" valign="top"><a id="a2d0021c1e0b09ff2487c306ad6a835db"></a>
 static <a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>Entity</b> (<a class="el" href="classace_1_1_entity_manager.html">EntityManager</a> &amp;manager=DefaultManager())</td></tr>
-<tr class="separator:a4b8e5225e382e7ead2d800adbe423671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82416774675cbffc7f36598553edb87d"><td class="memItemLeft" align="right" valign="top"><a id="a82416774675cbffc7f36598553edb87d"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
-<tr class="separator:a82416774675cbffc7f36598553edb87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2d0021c1e0b09ff2487c306ad6a835db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3281822ca8208181c137b0d58f77bf3"><td class="memItemLeft" align="right" valign="top"><a id="ab3281822ca8208181c137b0d58f77bf3"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#ab3281822ca8208181c137b0d58f77bf3">Update</a> ()</td></tr>
+<tr class="memdesc:ab3281822ca8208181c137b0d58f77bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update all component pools and contained components. <br /></td></tr>
+<tr class="separator:ab3281822ca8208181c137b0d58f77bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07666f426313de28ee9aab5de357cf57"><td class="memTemplParams" colspan="2">template&lt;typename PrimaryComponent , typename SecondaryComponent , typename Function &gt; </td></tr>
 <tr class="memitem:a07666f426313de28ee9aab5de357cf57"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#a07666f426313de28ee9aab5de357cf57">ForEach</a> (Function function)</td></tr>
 <tr class="memdesc:a07666f426313de28ee9aab5de357cf57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes 'function' for all components of 'PrimaryComponent' type, where they share a common owner entity with 'SecondaryType'.  <a href="#a07666f426313de28ee9aab5de357cf57">More...</a><br /></td></tr>
@@ -143,9 +145,9 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()<
 <tr class="memitem:adcdf4bcbd9272319ffe10b1eab14973c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#adcdf4bcbd9272319ffe10b1eab14973c">GetEntity</a> (const UInt32 index, <a class="el" href="classace_1_1_entity_manager.html">EntityManager</a> &amp;manager=DefaultManager())</td></tr>
 <tr class="memdesc:adcdf4bcbd9272319ffe10b1eab14973c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves pointer to the index'th entity handled by the 'manager'.  <a href="#adcdf4bcbd9272319ffe10b1eab14973c">More...</a><br /></td></tr>
 <tr class="separator:adcdf4bcbd9272319ffe10b1eab14973c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa664a1f88c98c56ad9047b9f937f48c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#aa664a1f88c98c56ad9047b9f937f48c1">DestroyEntity</a> (<a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a> *entity, <a class="el" href="classace_1_1_entity_manager.html">EntityManager</a> &amp;manager=DefaultManager())</td></tr>
-<tr class="memdesc:aa664a1f88c98c56ad9047b9f937f48c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys an entity pointed to by 'entity' that is handled by 'manager'.  Destroys the target entity, all components tied to it and invalidates the pointer. No effect if the pointer is invalid or is not managed by 'manager'.  <a href="#aa664a1f88c98c56ad9047b9f937f48c1">More...</a><br /></td></tr>
-<tr class="separator:aa664a1f88c98c56ad9047b9f937f48c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace82a2282c826c38e5125c5da4d727fa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity_manager.html#ace82a2282c826c38e5125c5da4d727fa">DestroyEntity</a> (<a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a> *entity, <a class="el" href="classace_1_1_entity_manager.html">EntityManager</a> &amp;manager=DefaultManager())</td></tr>
+<tr class="memdesc:ace82a2282c826c38e5125c5da4d727fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys an entity pointed to by 'entity' that is handled by 'manager'.  Destroys the target entity, all components tied to it and invalidates the pointer. No effect if the pointer is invalid or is not managed by 'manager'.  <a href="#ace82a2282c826c38e5125c5da4d727fa">More...</a><br /></td></tr>
+<tr class="separator:ace82a2282c826c38e5125c5da4d727fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -154,14 +156,14 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>SpriteManager</b></t
 <tr class="separator:ac495e8b586409665102aa3021200d453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6b10ed3a3b65e0041a534dcde5316334"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b10ed3a3b65e0041a534dcde5316334">&#9670;&nbsp;</a></span>CreateEntity()</h2>
+<a id="a70d76ae1c8a8726fe5fd6976d86d95ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d76ae1c8a8726fe5fd6976d86d95ae">&#9670;&nbsp;</a></span>CreateEntity()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a>* ace::EntityManager::CreateEntity </td>
+          <td class="memname"><a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityManager::EntityHandle</a> * ace::EntityManager::CreateEntity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -174,8 +176,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>SpriteManager</b></t
 
 </div>
 </div>
-<a id="aa664a1f88c98c56ad9047b9f937f48c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa664a1f88c98c56ad9047b9f937f48c1">&#9670;&nbsp;</a></span>DestroyEntity()</h2>
+<a id="ace82a2282c826c38e5125c5da4d727fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace82a2282c826c38e5125c5da4d727fa">&#9670;&nbsp;</a></span>DestroyEntity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,9 +186,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>SpriteManager</b></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void ace::EntityManager::DestroyEntity </td>
+          <td class="memname">void ace::EntityManager::DestroyEntity </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityHandle</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityManager::EntityHandle</a> *&#160;</td>
           <td class="paramname"><em>entity</em>, </td>
         </tr>
         <tr>
@@ -464,9 +466,47 @@ template&lt;typename CompType &gt; </div>
 
 </div>
 </div>
+<a id="a07f00dc59cf917e70b9d339ab8c35cdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f00dc59cf917e70b9d339ab8c35cdb">&#9670;&nbsp;</a></span>SetUpdateCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CompType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ace::EntityManager::SetUpdateCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classace_1_1_entity_manager.html#a0b9353cb23f7d75a8427e8faf801e8a7">UpdateCallback</a>&lt; CompType &gt;&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set custom update function for all components of CompType. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">callback</td><td>Function to set as an update function. Gets called when entities are updated. See UpdateCallback </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>False if no components of the desired type have been created before. True otherwise. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/Ace/<a class="el" href="_entity_manager_8h_source.html">EntityManager.h</a></li>
 <li>include/Ace/<a class="el" href="_entity_handle_8h_source.html">EntityHandle.h</a></li>
+<li>src/Ace/EntityManager.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

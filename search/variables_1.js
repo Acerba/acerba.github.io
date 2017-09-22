@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['image',['image',['../classace_1_1_sprite_sheet.html#a1f3ff81ff94fb7180db281e02e9bba80',1,'ace::SpriteSheet']]],
-  ['isplaying',['isPlaying',['../classace_1_1_animation.html#a5ae90c7641e7a64ea678223474cfb2fb',1,'ace::Animation']]]
+  ['dialogs',['dialogs',['../classorg_1_1libsdl_1_1app_1_1_s_d_l_activity.html#a180d98c07603e9984b86a0ab86642590',1,'org::libsdl::app::SDLActivity']]]
 ];

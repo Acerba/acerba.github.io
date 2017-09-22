@@ -85,26 +85,26 @@ Inheritance diagram for ace::EntityManager::ComponentPool&lt; CompType &gt;:</di
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab17430039f044a468ea9f9926d3a5739"><td class="memItemLeft" align="right" valign="top"><a id="ab17430039f044a468ea9f9926d3a5739"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUpdateCallback</b> (EntityManager::UpdateCallback&lt; CompType &gt; callback)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUpdateCallback</b> (<a class="el" href="classace_1_1_entity_manager.html#a0b9353cb23f7d75a8427e8faf801e8a7">EntityManager::UpdateCallback</a>&lt; CompType &gt; callback)</td></tr>
 <tr class="separator:ab17430039f044a468ea9f9926d3a5739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e353160f7cd483f45572263dc89eb1"><td class="memItemLeft" align="right" valign="top"><a id="aa1e353160f7cd483f45572263dc89eb1"></a>
-virtual const void *&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b> () const</td></tr>
-<tr class="separator:aa1e353160f7cd483f45572263dc89eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3785b072ed0a3031d171e715a63deea6"><td class="memItemLeft" align="right" valign="top"><a id="a3785b072ed0a3031d171e715a63deea6"></a>
-virtual void *&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (const UInt32 index)</td></tr>
-<tr class="separator:a3785b072ed0a3031d171e715a63deea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bc3cf13dcaa8411ef2520d94a4f5053"><td class="memItemLeft" align="right" valign="top"><a id="a5bc3cf13dcaa8411ef2520d94a4f5053"></a>
-virtual const void *&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (const UInt32 index) const</td></tr>
-<tr class="separator:a5bc3cf13dcaa8411ef2520d94a4f5053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38c4ba927cf8e9accc9581e82ee0696f"><td class="memItemLeft" align="right" valign="top"><a id="a38c4ba927cf8e9accc9581e82ee0696f"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Reserve</b> (const UInt32 size)</td></tr>
-<tr class="separator:a38c4ba927cf8e9accc9581e82ee0696f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e02087b711e9a173f0531ae943a8802"><td class="memItemLeft" align="right" valign="top"><a id="a2e02087b711e9a173f0531ae943a8802"></a>
-virtual UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>Size</b> () const</td></tr>
-<tr class="separator:a2e02087b711e9a173f0531ae943a8802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70439d65975bd816c35aed109bbca9fd"><td class="memItemLeft" align="right" valign="top"><a id="a70439d65975bd816c35aed109bbca9fd"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
-<tr class="separator:a70439d65975bd816c35aed109bbca9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e044992dfa119b7f96f43d01299f80"><td class="memItemLeft" align="right" valign="top"><a id="ac9e044992dfa119b7f96f43d01299f80"></a>
+const void *&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b> () const final override</td></tr>
+<tr class="separator:ac9e044992dfa119b7f96f43d01299f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46e206b2f1dded78f9e7322c29c5f676"><td class="memItemLeft" align="right" valign="top"><a id="a46e206b2f1dded78f9e7322c29c5f676"></a>
+void *&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (const UInt32 index) final override</td></tr>
+<tr class="separator:a46e206b2f1dded78f9e7322c29c5f676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9711f69bffec76f818003ded2d718be9"><td class="memItemLeft" align="right" valign="top"><a id="a9711f69bffec76f818003ded2d718be9"></a>
+const void *&#160;</td><td class="memItemRight" valign="bottom"><b>Get</b> (const UInt32 index) const final override</td></tr>
+<tr class="separator:a9711f69bffec76f818003ded2d718be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0566bdc1fe1b8a0760ee7b2c17192fe"><td class="memItemLeft" align="right" valign="top"><a id="ab0566bdc1fe1b8a0760ee7b2c17192fe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Reserve</b> (const UInt32 size) final override</td></tr>
+<tr class="separator:ab0566bdc1fe1b8a0760ee7b2c17192fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9578f261dd018c9d6c025ce2b5608f9"><td class="memItemLeft" align="right" valign="top"><a id="aa9578f261dd018c9d6c025ce2b5608f9"></a>
+UInt32&#160;</td><td class="memItemRight" valign="bottom"><b>Size</b> () const final override</td></tr>
+<tr class="separator:aa9578f261dd018c9d6c025ce2b5608f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb291414c5338862e44b87159b61e49"><td class="memItemLeft" align="right" valign="top"><a id="a5fb291414c5338862e44b87159b61e49"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> () final override</td></tr>
+<tr class="separator:a5fb291414c5338862e44b87159b61e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>

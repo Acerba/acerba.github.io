@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a>  </div>
@@ -82,10 +83,15 @@ Inheritance diagram for ace::IAudioSample:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structace_1_1_i_audio_sample_1_1_audio_clip_impl.html">AudioClipImpl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ecb35e1e72331bed5f7ff9bcff14517"><td class="memItemLeft" align="right" valign="top"><a id="a5ecb35e1e72331bed5f7ff9bcff14517"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>IAudioSample</b> (AudioClipImpl *clip=nullptr)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>IAudioSample</b> (<a class="el" href="structace_1_1_i_audio_sample_1_1_audio_clip_impl.html">AudioClipImpl</a> *clip=nullptr)</td></tr>
 <tr class="separator:a5ecb35e1e72331bed5f7ff9bcff14517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ebfe998f4dcf871bf5868e10d1520d4"><td class="memItemLeft" align="right" valign="top"><a id="a7ebfe998f4dcf871bf5868e10d1520d4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_i_audio_sample.html#a7ebfe998f4dcf871bf5868e10d1520d4">SetVolume</a> (float volume)</td></tr>
@@ -124,9 +130,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a3f68b434af761c725229a47b8fc0e483"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_i_audio_sample.html#a3f68b434af761c725229a47b8fc0e483">SetVelocity</a> (<a class="el" href="classace_1_1math_1_1_vector3.html">math::Vector3</a> velocity)</td></tr>
 <tr class="memdesc:a3f68b434af761c725229a47b8fc0e483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets audio position for the specified source.  <a href="#a3f68b434af761c725229a47b8fc0e483">More...</a><br /></td></tr>
 <tr class="separator:a3f68b434af761c725229a47b8fc0e483"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a2208872a902174cf283189fcf1ad90"><td class="memItemLeft" align="right" valign="top"><a id="a7a2208872a902174cf283189fcf1ad90"></a>
-AudioClipImpl *&#160;</td><td class="memItemRight" valign="bottom"><b>operator-&gt;</b> () const</td></tr>
-<tr class="separator:a7a2208872a902174cf283189fcf1ad90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd4411112a102462b9a690cc5cfa1cf"><td class="memItemLeft" align="right" valign="top"><a id="abfd4411112a102462b9a690cc5cfa1cf"></a>
+<a class="el" href="structace_1_1_i_audio_sample_1_1_audio_clip_impl.html">AudioClipImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>operator-&gt;</b> () const</td></tr>
+<tr class="separator:abfd4411112a102462b9a690cc5cfa1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b7dc244eb3597753dec156ab1a0100b"><td class="memItemLeft" align="right" valign="top"><a id="a9b7dc244eb3597753dec156ab1a0100b"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Play</b> ()=0</td></tr>
 <tr class="separator:a9b7dc244eb3597753dec156ab1a0100b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,7 +140,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Play</b> ()=0
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a5d64a45c991e4390e31df134b943270b"><td class="memItemLeft" align="right" valign="top"><a id="a5d64a45c991e4390e31df134b943270b"></a>
-std::shared_ptr&lt; AudioClipImpl &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>impl</b></td></tr>
+std::shared_ptr&lt; <a class="el" href="structace_1_1_i_audio_sample_1_1_audio_clip_impl.html">AudioClipImpl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>impl</b></td></tr>
 <tr class="separator:a5d64a45c991e4390e31df134b943270b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a395440e8e109357a98fdc2863f8a0d15"><td class="memItemLeft" align="right" valign="top"><a id="a395440e8e109357a98fdc2863f8a0d15"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>ispaused</b></td></tr>
@@ -309,8 +315,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Audio</b></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/Ace/<a class="el" href="_audio_8h_source.html">Audio.h</a></li>
+<li>src/Ace/Audio.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

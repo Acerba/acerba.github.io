@@ -73,14 +73,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7e3ecbbba79bbe4f750941e103eb8756"><td class="memItemLeft" align="right" valign="top"><a id="a7e3ecbbba79bbe4f750941e103eb8756"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Entity</b> (<a class="el" href="classace_1_1_entity.html">Entity</a> &amp;&amp;)=default</td></tr>
-<tr class="separator:a7e3ecbbba79bbe4f750941e103eb8756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53fec3d3d2b6f0f1e49b5307ca196bc0"><td class="memItemLeft" align="right" valign="top"><a id="a53fec3d3d2b6f0f1e49b5307ca196bc0"></a>
-<a class="el" href="classace_1_1_entity.html">Entity</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classace_1_1_entity.html">Entity</a> &amp;)=default</td></tr>
-<tr class="separator:a53fec3d3d2b6f0f1e49b5307ca196bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2759a348d2353cbdc58fe70fd7c1774"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#ae2759a348d2353cbdc58fe70fd7c1774">Entity</a> (<a class="el" href="classace_1_1_entity_manager.html">EntityManager</a> &amp;manager=EntityManager::DefaultManager())</td></tr>
-<tr class="memdesc:ae2759a348d2353cbdc58fe70fd7c1774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#ae2759a348d2353cbdc58fe70fd7c1774">More...</a><br /></td></tr>
+<tr class="memdesc:ae2759a348d2353cbdc58fe70fd7c1774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disabled copy-ctor, assignment left as-is. This means that assigning an entity to another will cause them to share the components present at the moment of assigning.  <a href="#ae2759a348d2353cbdc58fe70fd7c1774">More...</a><br /></td></tr>
 <tr class="separator:ae2759a348d2353cbdc58fe70fd7c1774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40bb1c6ca58a149f200b0962689c8a4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#a40bb1c6ca58a149f200b0962689c8a4a">Entity</a> (<a class="el" href="structace_1_1_entity_manager_1_1_entity_handle.html">EntityManager::EntityHandle</a> *handle)</td></tr>
 <tr class="memdesc:a40bb1c6ca58a149f200b0962689c8a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy-ctor from EntityHandle.  <a href="#a40bb1c6ca58a149f200b0962689c8a4a">More...</a><br /></td></tr>
@@ -92,9 +86,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4feba60be6ef5cc6f45b77776e4b840d"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#a4feba60be6ef5cc6f45b77776e4b840d">ComponentCount</a> () const</td></tr>
 <tr class="memdesc:a4feba60be6ef5cc6f45b77776e4b840d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of components tied to this entity.  <a href="#a4feba60be6ef5cc6f45b77776e4b840d">More...</a><br /></td></tr>
 <tr class="separator:a4feba60be6ef5cc6f45b77776e4b840d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcdeb10a869708a84b344feb2be88cda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#abcdeb10a869708a84b344feb2be88cda">AddChild</a> (<a class="el" href="classace_1_1_entity.html">Entity</a> &amp;target)</td></tr>
-<tr class="memdesc:abcdeb10a869708a84b344feb2be88cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks target as a child of this and this as a parent of target.  <a href="#abcdeb10a869708a84b344feb2be88cda">More...</a><br /></td></tr>
-<tr class="separator:abcdeb10a869708a84b344feb2be88cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56a3fe058d7eadef811d6c243f6e252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#aa56a3fe058d7eadef811d6c243f6e252">AddChild</a> (<a class="el" href="classace_1_1_entity.html">Entity</a> &amp;child)</td></tr>
+<tr class="memdesc:aa56a3fe058d7eadef811d6c243f6e252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks child as a child of this and this as a parent of child.  <a href="#aa56a3fe058d7eadef811d6c243f6e252">More...</a><br /></td></tr>
+<tr class="separator:aa56a3fe058d7eadef811d6c243f6e252"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21ed1efc1cd28730661e61138dbc213c"><td class="memItemLeft" align="right" valign="top"><a id="a21ed1efc1cd28730661e61138dbc213c"></a>
 UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#a21ed1efc1cd28730661e61138dbc213c">ChildCount</a> () const</td></tr>
 <tr class="memdesc:a21ed1efc1cd28730661e61138dbc213c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of children this entity has. <br /></td></tr>
@@ -117,10 +111,13 @@ UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="memitem:a01435e43114feefa25d09dac8dabbf4b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#a01435e43114feefa25d09dac8dabbf4b">Reserve</a> (const UInt32 size)</td></tr>
 <tr class="memdesc:a01435e43114feefa25d09dac8dabbf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserve 'size' amount of elements for components of type 'CompType'. Note that this is a Type-wise reservation.  <a href="#a01435e43114feefa25d09dac8dabbf4b">More...</a><br /></td></tr>
 <tr class="separator:a01435e43114feefa25d09dac8dabbf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad291c5731f89fa3ceced79882216777"><td class="memTemplParams" colspan="2">template&lt;typename CompType &gt; </td></tr>
-<tr class="memitem:aad291c5731f89fa3ceced79882216777"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#aad291c5731f89fa3ceced79882216777">RemoveComponent</a> (<a class="el" href="structace_1_1_entity_manager_1_1_component_base_handle.html">EntityManager::ComponentBaseHandle</a> *component=nullptr)</td></tr>
-<tr class="memdesc:aad291c5731f89fa3ceced79882216777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a component of 'CompType', pointed to by 'component'. Removes first component if none specified. No effect if no components of correct type present.  <a href="#aad291c5731f89fa3ceced79882216777">More...</a><br /></td></tr>
-<tr class="separator:aad291c5731f89fa3ceced79882216777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56ef2988f2abb0bcf85183bee26f29a"><td class="memTemplParams" colspan="2">template&lt;typename CompType &gt; </td></tr>
+<tr class="memitem:ae56ef2988f2abb0bcf85183bee26f29a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#ae56ef2988f2abb0bcf85183bee26f29a">RemoveComponent</a> (<a class="el" href="structace_1_1_entity_manager_1_1_component_handle.html">EntityManager::ComponentHandle</a>&lt; CompType &gt; *component=nullptr)</td></tr>
+<tr class="memdesc:ae56ef2988f2abb0bcf85183bee26f29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a component of 'CompType', pointed to by 'component'. Removes first component if none specified. No effect if no components of correct type present.  <a href="#ae56ef2988f2abb0bcf85183bee26f29a">More...</a><br /></td></tr>
+<tr class="separator:ae56ef2988f2abb0bcf85183bee26f29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03cdbdaa35e32fc97866ca121df9d042"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#a03cdbdaa35e32fc97866ca121df9d042">SetParent</a> (<a class="el" href="classace_1_1_entity.html">Entity</a> &amp;parent)</td></tr>
+<tr class="memdesc:a03cdbdaa35e32fc97866ca121df9d042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this as a child of parent.  <a href="#a03cdbdaa35e32fc97866ca121df9d042">More...</a><br /></td></tr>
+<tr class="separator:a03cdbdaa35e32fc97866ca121df9d042"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe790e7ea8d84ceb3d49e72c2a4d2507"><td class="memTemplParams" colspan="2">template&lt;typename CompType &gt; </td></tr>
 <tr class="memitem:afe790e7ea8d84ceb3d49e72c2a4d2507"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structace_1_1_entity_manager_1_1_component_handle.html">EntityManager::ComponentHandle</a>&lt; CompType &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classace_1_1_entity.html#afe790e7ea8d84ceb3d49e72c2a4d2507">GetComponent</a> (const UInt32 index=0u)</td></tr>
 <tr class="memdesc:afe790e7ea8d84ceb3d49e72c2a4d2507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves index'th component pointer of type 'CompType'. First component by default.  <a href="#afe790e7ea8d84ceb3d49e72c2a4d2507">More...</a><br /></td></tr>
@@ -181,8 +178,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Default constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Disabled copy-ctor, assignment left as-is. This means that assigning an entity to another will cause them to share the components present at the moment of assigning. </p>
+<p>Default constructor. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">manager</td><td>Assigns entity to a manager. Uses default manager if not specified. </td></tr>
   </table>
@@ -228,8 +225,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abcdeb10a869708a84b344feb2be88cda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcdeb10a869708a84b344feb2be88cda">&#9670;&nbsp;</a></span>AddChild()</h2>
+<a id="aa56a3fe058d7eadef811d6c243f6e252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56a3fe058d7eadef811d6c243f6e252">&#9670;&nbsp;</a></span>AddChild()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +238,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">void ace::Entity::AddChild </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classace_1_1_entity.html">Entity</a> &amp;&#160;</td>
-          <td class="paramname"><em>target</em></td><td>)</td>
+          <td class="paramname"><em>child</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -252,10 +249,10 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Marks target as a child of this and this as a parent of target. </p>
+<p>Marks child as a child of this and this as a parent of child. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">target</td><td>Will be child of this. Must be valid pointer. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">child</td><td>Will be child of this. </td></tr>
   </table>
   </dd>
 </dl>
@@ -673,8 +670,8 @@ template&lt;typename CompType &gt; </div>
 
 </div>
 </div>
-<a id="aad291c5731f89fa3ceced79882216777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad291c5731f89fa3ceced79882216777">&#9670;&nbsp;</a></span>RemoveComponent()</h2>
+<a id="ae56ef2988f2abb0bcf85183bee26f29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56ef2988f2abb0bcf85183bee26f29a">&#9670;&nbsp;</a></span>RemoveComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -687,7 +684,7 @@ template&lt;typename CompType &gt; </div>
         <tr>
           <td class="memname">void ace::Entity::RemoveComponent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structace_1_1_entity_manager_1_1_component_base_handle.html">EntityManager::ComponentBaseHandle</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structace_1_1_entity_manager_1_1_component_handle.html">EntityManager::ComponentHandle</a>&lt; CompType &gt; *&#160;</td>
           <td class="paramname"><em>component</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
@@ -739,6 +736,40 @@ template&lt;typename CompType &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Target size to reserve to. No effect if current reserved size is same or larger. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a03cdbdaa35e32fc97866ca121df9d042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03cdbdaa35e32fc97866ca121df9d042">&#9670;&nbsp;</a></span>SetParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ace::Entity::SetParent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classace_1_1_entity.html">Entity</a> &amp;&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets this as a child of parent. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">parent</td><td>New parent of this. </td></tr>
   </table>
   </dd>
 </dl>

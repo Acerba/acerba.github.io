@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spritename',['SpriteName',['../structace_1_1_sprite_sheet_1_1_sprite_data.html#abd47ac7c1276824bfc6a6f0d58a95576',1,'ace::SpriteSheet::SpriteData']]]
+  ['rect',['rect',['../structace_1_1_sprite_sheet_1_1_sprite_data.html#a0d69dcc00b999e357314c393fcc73b0a',1,'ace::SpriteSheet::SpriteData']]]
 ];

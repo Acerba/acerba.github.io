@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['fadeeffect',['FadeEffect',['../classace_1_1_fade_effect.html',1,'ace']]],
-  ['file',['File',['../classace_1_1_file.html',1,'ace']]],
-  ['font',['Font',['../classace_1_1_font.html',1,'ace']]],
-  ['framebuffer',['Framebuffer',['../structace_1_1_framebuffer.html',1,'ace']]],
-  ['framebufferimpl',['FramebufferImpl',['../structace_1_1_framebuffer_impl.html',1,'ace']]]
+  ['entity',['Entity',['../classace_1_1_entity.html',1,'ace']]],
+  ['entityhandle',['EntityHandle',['../structace_1_1_entity_manager_1_1_entity_handle.html',1,'ace::EntityManager']]],
+  ['entitymanager',['EntityManager',['../classace_1_1_entity_manager.html',1,'ace']]],
+  ['event',['Event',['../classace_1_1_event.html',1,'ace']]],
+  ['eventbase',['EventBase',['../classace_1_1_event_base.html',1,'ace']]],
+  ['eventbase_3c_20animationevent_20_3e',['EventBase&lt; AnimationEvent &gt;',['../classace_1_1_event_base.html',1,'ace']]],
+  ['eventbase_3c_20event_3a_3asdleventarg_20_3e',['EventBase&lt; Event::SDLEventArg &gt;',['../classace_1_1_event_base.html',1,'ace']]],
+  ['eventmanager',['EventManager',['../classace_1_1_event_manager.html',1,'ace']]]
 ];

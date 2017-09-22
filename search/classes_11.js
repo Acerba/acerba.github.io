@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['vector2',['Vector2',['../classace_1_1math_1_1_vector2.html',1,'ace::math']]],
-  ['vector3',['Vector3',['../classace_1_1math_1_1_vector3.html',1,'ace::math']]],
-  ['vector4',['Vector4',['../classace_1_1math_1_1_vector4.html',1,'ace::math']]],
-  ['vertex',['Vertex',['../structace_1_1_vertex.html',1,'ace']]],
-  ['vertexbuffer',['VertexBuffer',['../structace_1_1_vertex_buffer.html',1,'ace']]]
+  ['userinterface',['UserInterface',['../classace_1_1_user_interface.html',1,'ace']]],
+  ['userinterfaceimpl',['UserInterfaceImpl',['../classace_1_1_user_interface_impl.html',1,'ace']]]
 ];
